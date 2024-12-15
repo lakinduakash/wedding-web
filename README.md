@@ -1,18 +1,20 @@
-[//]: # (Source code for our wedding website 👫 &#40;https://we.shyamjos.com/&#41; , Based on HTML theme https://freehtml5.co/wedding-free-html5-bootstrap-template-for-wedding-websites)
+# Wedding Website
 
-[//]: # ()
-[//]: # (To set the countdown date see below section in `js/clock.js`)
+## Image gallery updating
 
-[//]: # ()
-[//]: # (````)
+Step 1:
+Upload images to `images/gallery` folder
 
-[//]: # (  // Target future date/24 hour time/Timezone)
+Step 2:
+Update `images-list.txt` with file name ( Only file name ) - each line should contain the name of the image file
 
-[//]: # (  let targetDate = moment.tz&#40;"2023-10-29 12:00", "Asia/Kolkata"&#41;;)
+Ex:
+```
+image1.jpg
+image2.jpg
+```
 
-[//]: # (````)
+Github action is triggered and deployed the updated content
 
-[//]: # ()
-[//]: # (## Sreenshot)
 
-[//]: # (![screenshot]&#40;https://repository-images.githubusercontent.com/698651028/d9cbed4d-10e2-44bd-bca8-e26a251ff182&#41;)
+https://nplusl.online
